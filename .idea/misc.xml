@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/hp/AndroidStudioProjects/PennyDrop/app/src/main/res/drawable/dice_6.xml" value="0.155" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/PennyDrop/app/src/main/res/drawable/mdi_coin_black_24dp.xml" value="0.155" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/PennyDrop/app/src/main/res/layout/activity_main.xml" value="0.17864583333333334" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/PennyDrop/app/src/main/res/layout/fragment_game.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/PennyDrop/app/src/main/res/layout/coin_slot.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/PennyDrop/app/src/main/res/layout/coin_slot2.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/PennyDrop/app/src/main/res/layout/fragment_game.xml" value="0.33" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/PennyDrop/app/src/main/res/layout/fragment_pick_players.xml" value="0.2" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/PennyDrop/app/src/main/res/layout/player_list_item.xml" value="0.17864583333333334" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/PennyDrop/app/src/main/res/menu/navigation.xml" value="0.17864583333333334" />
