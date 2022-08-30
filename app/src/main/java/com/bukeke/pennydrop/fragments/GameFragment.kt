@@ -6,15 +6,14 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.activityViewModels
 import com.bukeke.pennydrop.R
 import com.bukeke.pennydrop.databinding.FragmentGameBinding
+import com.bukeke.pennydrop.viewModels.GameViewModel
 
 class GameFragment : Fragment() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-    }
+    private val gameViewModel by activityViewModels<GameViewModel>()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -22,7 +21,10 @@ class GameFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val binding = FragmentGameBinding.inflate(inflater,container,false).apply {
-            textCurrentTurnInfo.movementMethod = ScrollingMovementMethod()}
+            vm = gameViewModel
+            textCurrentTurnInfo.movementMethod = ScrollingMovementMethod()
+        lifecycleOwner = viewLifecycleOwner
+        }
 
         return binding.root
     }
